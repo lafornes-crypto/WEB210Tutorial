@@ -1,0 +1,115 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color:darksalmon;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+img {
+    width: 300px;
+    float: left;
+    
+}
+
+.head {
+    padding-bottom: 15px;
+}
+
+.education {
+    padding-bottom: 45px;
+}
+
+.project {
+    padding-bottom: 90px;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: black;
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h1, h2 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.example {
+    color: gray;
+}
+
+
+a {
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.project a {
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+
+
+
+}
+.main {
+    background-color: darksalmon;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    padding: 1px;
+    border-radius: 4px;
+    
+}
+
+.contact {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact a {
+    padding: 15px;
+    display: inline-flex;
+}
+
